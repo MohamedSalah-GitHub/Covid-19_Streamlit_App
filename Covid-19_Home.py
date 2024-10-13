@@ -18,9 +18,18 @@ with st.container():
         # Image
         st.image('https://www.emro.who.int/images/stories/about-who/who_emro_logo_twitter.png', width=300)
 # Image
-st.image('E:\Python and ML Zero Grad\Streamlit porjects\Covid-19_Streamlit_App\World_Health_Organisation_headquarters.jpg')
+st.image('https://raw.githubusercontent.com/MohamedSalah-GitHub/Covid-19_Streamlit_App/main/World_Health_Organisation_headquarters.jpg')
 
-# Description
+####################
+#To import image from guthub , use below convertion rule 
+#Original image link
+#https://github.com/MohamedSalah-GitHub/Covid-19_Streamlit_App/blob/main/World_Health_Organisation_headquarters.jpg
+
+#New Link , add "https://raw.githubusercontent.com/" at the begining and remove "/blob" from the midle
+#https://raw.githubusercontent.com/MohamedSalah-GitHub/Covid-19_Streamlit_App/main/World_Health_Organisation_headquarters.jpg
+################
+
+# Descriptions
 st.header('Description')
 st.markdown('''
 This app is created to analyze the Covid-19 data.
